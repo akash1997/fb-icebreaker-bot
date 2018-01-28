@@ -4,6 +4,8 @@ This tutorial helps you in setting up the Messenger Icebreaker bot which gives y
 
 For the chat bot to function we'll need a server that will receive the messages sent by the Facebook users, process this message and respond back to the user. To send messages back to the server we will use the graph API provided by Facebook. For the Facebook servers to talk to our server, the endpoint URL of our server should be accessible to the Facebook server and should use a secure HTTPS URL. For this reason, running our server locally will not work and instead we need to host our server online. In this tutorial, we are going to deploy our server on Hasura which automatically provides SSL-enabled domains.
 
+![Demo](https://github.com/akash1997/fb-icebreaker-bot/blob/master/icebreaker_demo_small.gif)
+
 ## Contents
 
 * [Pre-requisites](#pre-requisites)
