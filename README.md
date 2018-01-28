@@ -122,6 +122,8 @@ Next, open up your facebook page.
 
 ## Bot Functionality
 
+Ever feel yourself in a situation where you find t difficult to start a conversation with the next person. Ths bot comes to your rescue by generating an icebreaker. You can also use it to start a discussion among a group of people too.
+
 This feature can be accessed by the command:
 ```sh
 startconv
