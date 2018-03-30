@@ -122,7 +122,8 @@ function processText(senderId, messageText) {
 
 function getNews(senderId, category) {
 	var message = 'How about this: ';
-	var url = 'https://newsapi.org/v2/top-headlines?country=in&language=en&apiKey='+NEWS_API_KEY+'&pagesize=1&category='+category;
+	var myRand= Math.floor(Math.random() * 9) + 1;
+	var url = 'https://newsapi.org/v2/top-headlines?country=in&language=en&apiKey='+NEWS_API_KEY+'&pagesize=1&page='+myRand+'&category='+category;
 	
 	var newsReq= new XMLHttpRequest();
 	newsReq.onreadystatechange= function(){
